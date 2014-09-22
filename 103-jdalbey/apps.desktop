@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Application
+Name=TimeLogger
+Comment=Stopwatch useful in the Personal Software Process
+Exec=/usr/bin/java -jar /usr/local/bin/TimeLogger.jar
+Terminal=false
+
+[Desktop Entry]
+Type=Application
+Name=LOC Counter
+Comment=Counts the lines of code in a file
+Exec=/usr/bin/java -jar /usr/local/bin/LOC.jar
+Terminal=false
+
+[Desktop Entry]
+Type=Application
+Name=Violet
+Comment=UML editor
+Exec=/usr/bin/java -jar /usr/local/bin/violet-0.16a.jar
+Terminal=false
