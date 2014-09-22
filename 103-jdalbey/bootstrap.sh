@@ -23,9 +23,10 @@ download $bluej/extensions/GUI_Extension.jar \
   https://home.pf.jcu.cz/~gbluej/download.php?Down=GUI_Extension.jar
 
 download $bluej/extensions/checkstyle308-extension.jar \
-  https://www.csc.calpoly.edu/%7Ejdalbey/SWE/Tools/checkstyle308-extension.jar
+  https://www.csc.calpoly.edu/~jdalbey/SWE/Tools/checkstyle308-extension.jar
 mkdir -p $bluej/checkstyle
-cp /vagrant/103style.xml $bluej/checkstyle/ # TODO
+download $bluej/checkstyle/103style.xml \
+  https://www.csc.calpoly.edu/~jdalbey/103/Projects/103style.xml
 checkstyle='extensions.com.puppycrawl.tools.checkstyle.plugins.bluej.CheckstyleExtension.settings.checkstyle.configfile'
 echo "$checkstyle=$bluej/checkstyle/103style.xml" >> $bluej/bluej.defs
 
