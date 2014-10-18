@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Violet
+Comment=UML editor
+Exec=/usr/bin/java -jar /usr/local/bin/violet-0.16a.jar
+Terminal=false
+Categories=Development

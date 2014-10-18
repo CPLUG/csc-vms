@@ -7,6 +7,11 @@
         "virtualbox.sh"
       ],
       "execute_command": "echo 'student' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'"
+    },
+    {
+      "type": "file",
+      "source": "applications/",
+      "destination": "/usr/local/share/applications"
     }
   ],
   "builders": [
@@ -32,7 +37,7 @@
         "debconf/frontend=noninteractive ",
         "debian-installer=en_US ",
         "fb=false ",
-        "hostname={{ .Name }} ",
+        "hostname=student ",
         "initrd=/install/initrd.gz ",
         "kbd-chooser/method=us ",
         "keyboard-configuration/layout=USA ",

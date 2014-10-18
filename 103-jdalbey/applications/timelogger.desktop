@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=TimeLogger
+Comment=Stopwatch useful in the Personal Software Process
+Exec=/usr/bin/java -jar /usr/local/bin/TimeLogger.jar
+Terminal=false
+Categories=Development

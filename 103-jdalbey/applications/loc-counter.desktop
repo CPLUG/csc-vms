@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=LOC Counter
+Comment=Counts the lines of code in a file
+Exec=/usr/bin/java -jar /usr/local/bin/LOC.jar
+Terminal=false
+Categories=Development
