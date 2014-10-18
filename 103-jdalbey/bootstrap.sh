@@ -10,7 +10,7 @@ apt-get -qq update
 # apt-get -qy dist-upgrade
 
 # Desktop environment
-apt-get -qy install xfce4 xfwm4-themes xfce4-terminal
+apt-get -qy --no-install-recommends install lubuntu-core lxterminal byobu-
 
 # Java 7, RapidSVN
 apt-get -qy install openjdk-7-jdk rapidsvn
