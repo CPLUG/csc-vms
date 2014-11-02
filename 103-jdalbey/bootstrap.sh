@@ -6,12 +6,6 @@ download() {
   wget -q -O $1 $2
 }
 
-apt-get -qq update
-# apt-get -qy dist-upgrade
-
-# Desktop environment
-apt-get -qy --no-install-recommends install lubuntu-core lxterminal byobu-
-
 # Java 7, RapidSVN
 apt-get -qy install openjdk-7-jdk rapidsvn
 
@@ -50,3 +44,5 @@ download $jar_dir/LOC.jar \
 download $jar_dir/violet-0.16a.jar \
   http://www.horstmann.com/violet/violet-0.16a.jar
 mkdir -p /usr/local/share/applications
+mv /tmp/applications/* /usr/local/share/applications/
+rmdir /tmp/applications

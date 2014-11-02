@@ -1,3 +1,4 @@
+*.ova
 .vagrant
 output-*
 packer_cache
