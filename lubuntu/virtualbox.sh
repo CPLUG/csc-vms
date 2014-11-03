@@ -1,5 +1,4 @@
 #!/bin/sh
-mount -o loop /tmp/VBoxGuestAdditions.iso /mnt
-sh /mnt/VBoxLinuxAdditions.run
-umount /mnt
-rm /tmp/VBoxGuestAdditions.iso
+set -e
+
+apt-get -qy install virtualbox-guest-x11

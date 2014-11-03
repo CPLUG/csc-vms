@@ -21,8 +21,7 @@
       "ssh_password": "student",
       "ssh_wait_timeout": "1200s",
       "shutdown_command": "echo 'student' | sudo -S shutdown -P now",
-      "guest_additions_mode": "upload",
-      "guest_additions_path": "/tmp/VBoxGuestAdditions.iso",
+      "guest_additions_mode": "disable",
       "http_directory": ".",
       "boot_command": [
         "<esc><esc><enter><wait>",
