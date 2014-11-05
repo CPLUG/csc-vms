@@ -9,5 +9,5 @@ apt-get -qy install lightdm lightdm-gtk-greeter lxterminal byobu-
 apt-get -qy --no-install-recommends install lubuntu-core
 
 # Enable auto-login
-echo "[SeatDefaults]\nautologin-user=student" > /etc/lightdm/lightdm.conf
+cp /tmp/lightdm.conf /etc/lightdm/lightdm.conf
 usermod -aG nopasswdlogin student

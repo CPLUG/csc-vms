@@ -1,6 +1,11 @@
 {
   "provisioners": [
     {
+      "type": "file",
+      "source": "lightdm.conf",
+      "destination": "/tmp/lightdm.conf"
+    },
+    {
       "type": "shell",
       "scripts": [
         "bootstrap.sh",
