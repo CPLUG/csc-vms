@@ -2,5 +2,5 @@
 
 %.ova: %/packer.json %/*.sh
 	cd $* && packer build packer.json
-	mv $*/output-*/*.ova $@
+	mv $*/output-*/$*.ova $@
 	rmdir $*/output-*

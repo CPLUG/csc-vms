@@ -18,6 +18,7 @@
     {
       "type": "virtualbox-iso",
       "format": "ova",
+      "vm_name": "lubuntu",
       "guest_os_type": "Ubuntu",
       "iso_url": "http://releases.ubuntu.com/trusty/ubuntu-14.04-server-i386.iso",
       "iso_checksum": "08d25bf879e353686a974b7b14ae7d81",

@@ -15,6 +15,7 @@
     {
       "type": "virtualbox-ovf",
       "format": "ova",
+      "vm_name": "103-jdalbey",
       "source_path": "../lubuntu.ova",
       "ssh_username": "student",
       "ssh_password": "student",
