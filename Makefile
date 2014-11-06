@@ -1,3 +1,4 @@
+csc-general.ova: lubuntu.ova
 103-jdalbey.ova: lubuntu.ova
 
 %.ova: %/packer.json %/*.sh
