@@ -17,6 +17,7 @@
       "format": "ova",
       "vm_name": "103-jdalbey",
       "source_path": "../lubuntu.ova",
+      "guest_additions_mode": "disable",
       "ssh_username": "student",
       "ssh_password": "student",
       "ssh_wait_timeout": "1200s",

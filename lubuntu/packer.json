@@ -28,6 +28,9 @@
       "ssh_wait_timeout": "1200s",
       "shutdown_command": "echo 'student' | sudo -S shutdown -P now",
       "guest_additions_mode": "disable",
+      "vboxmanage": [
+        ["modifyvm", "{{.Name}}", "--vram", "12"]
+      ],
       "http_directory": ".",
       "boot_command": [
         "<esc><esc><enter><wait>",
