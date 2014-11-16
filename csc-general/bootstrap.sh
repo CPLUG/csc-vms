@@ -2,6 +2,7 @@
 set -e
 
 packages=(
+  chromium-browser
   vim-gtk emacs24-lucid         # Editors
   gdb g++ gcc binutils valgrind # C/C++ development
   openjdk-7-jdk junit4          # Java development
@@ -22,3 +23,6 @@ filename=`mktemp`
 wget -q -O $filename http://www.greenfoot.org/download/files/greenfoot-240.deb
 dpkg -i $filename
 
+# Configure LXPanel
+mkdir -p /home/student/.config
+cp -r /tmp/lxpanel /home/student/.config/

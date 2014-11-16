@@ -1,6 +1,11 @@
 {
   "provisioners": [
     {
+      "type": "file",
+      "source": "lxpanel",
+      "destination": "/tmp/lxpanel"
+    },
+    {
       "type": "shell",
       "script": "bootstrap.sh",
       "execute_command": "echo 'student' | {{ .Vars }} sudo -E -S bash '{{ .Path }}'"
